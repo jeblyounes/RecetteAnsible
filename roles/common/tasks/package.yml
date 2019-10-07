@@ -13,6 +13,3 @@
   package:
           name: tmux
           state: present
-          
-- name: 
-
