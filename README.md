@@ -1,1 +1,1 @@
-Doc
+This is a doc.
