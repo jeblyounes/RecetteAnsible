@@ -1,0 +1,4 @@
+---
+- name: Configure server
+  import_tasks: package.yml
+
