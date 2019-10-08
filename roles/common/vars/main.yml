@@ -1,0 +1,7 @@
+---
+packages:
+        - htop
+        - ntpdate
+        - tmux
+        - vim
+        - dnsutils

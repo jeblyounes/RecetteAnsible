@@ -1,9 +1,5 @@
 ---
-- name: add packages
+- name: add packages loop
   apt:
-          name: "{{ packages }}"
-  vars:
-          packages:
-                  - vim
-                  - tmux
-                  - htop
+          name: "{{ item }}"
+  loop: "{{ packages }}"
