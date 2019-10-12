@@ -1,13 +1,14 @@
 ---
-- hosts: all
+- name: installation de serveur apache
+  hosts: all
   remote_user: root
   
   tasks:
   -name: installation d'Apache
-  apt: name=apache2
+   apt: name=apache2
   
 
-  roles:
-          - common
+  #roles:
+         # - common
   #become: yes
   #become_user: root
