@@ -3,9 +3,9 @@
   hosts: all
   remote_user: root
   
-  tasks:
-  -name: installation d'Apache
-   apt: name=apache2
+  tasks: 
+  - name: installation d'Apache
+    apt: name=apache2
   
 
   #roles:
